@@ -10,5 +10,6 @@ Note that the 2D/3D rendering for unity is different from P5JS, so there might b
 
 # Differences
 
+- P5JS class variables is able to be created and assigned without a constructor, However in C# these class variables will need to be Intiailize in the Constructor
 - Replace *let* with public static varirables e.g "let xSpeed" => "public static xSpeed"
 - Replace *Arrays[]* with List e.g "tail = []" => "List<Vector2> tail = new()";
